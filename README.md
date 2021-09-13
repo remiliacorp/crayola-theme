@@ -1,29 +1,32 @@
-# 💫 Ganymede [![Codacy Badge](https://api.codacy.com/project/badge/Grade/854794f0c3c54b5c90ca4f08146c0ad0)](https://www.codacy.com/manual/jiang/ganymede?utm_source=github.com&utm_medium=referral&utm_content=itsmingjie/ganymede&utm_campaign=Badge_Grade)
+# Crayola - Theme for Ghost
 
-Ganymede is a content-focused, deploy-ready theme for [Ghost](http://github.com/tryghost/ghost/), designed for my personal [website and blog](https://mingjie.info).
+Crayola is a content-focused, deploy-ready theme for [Ghost](http://github.com/tryghost/ghost/), designed for RemiliaDAO's [writing]](https://blog.remilia.org).
 
-The theme is based on [Callisto](https://github.com/jckyeh/Callisto-Ghost-Theme) by [@jckyeh](https://github.com/jckyeh/).
+The theme is based on [ganymede](https://github.com/itsmingjie/ganymede) by [@itsmingjie](https://github.com/itsmingjie/).
 
 ![screenshot-home](docs/screenshot-1.png)
 ![screenshot-reading](docs/screenshot-2.png)
 
 ## Improvements
 
-- [x] Better font & reading experience
-- [x] Better structure for repeating elements
-- [x] Clean-up unused and unnecessary elements
-- [x] Metadata display on post list
-- [x] Hover preloading via [instant.page](https://instant.page/)
-- [x] Support for some Ghost 3.0 features, including bookmarks
-- [x] Autodeploy to my Ghost instance via GitHub Actions
-- [x] Preview post special styling & formatting
-- [x] Featured post display order
-- [x] Complete CSS dark mode support based on [Andy Bell](https://hankchizljaw.com/wrote/create-a-user-controlled-dark-or-light-mode/)'s guide.
+- [x] Pastel color theme
+- [x] Monospace font family
+- [X] Removed transition effects
+- [X] Remove preloading
+
+## Installation
+
+Download Zip, upload to GHost's themes directly.
+
+### Setup
+
+- Edit Partials > footer.hbs to change the copyright
+- Edit Partials > header.hbs to change the socials link
 
 ## Copyright & License
 
-Copyright (c) 2019-2020 Mingjie Jiang - Released under the [MIT license](LICENSE).
+Copyright (c) 2021 Remilia Jackson - Released under the [MIT license](LICENSE).
 
-Original work by [Jack Yeh](https://github.com/jckyeh/) - Released under the MIT License.
+Original theme by [Ming Jie](https://github.com/itsmingjie/) - Released under the MIT License.
 
 [instant.page](https://github.com/instantpage/instant.page/) by [Alexandre Dieulot](https://dieulot.fr/) - Released under the MIT License.
