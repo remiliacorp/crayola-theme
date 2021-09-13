@@ -4,7 +4,19 @@ into the {body} of the default.hbs template --}}
 {{> header}}
 
 {{!-- Everything inside the #post tags pulls data from the post --}}
-{{#page}}
+
+<!-- Homepage showing most recent posts: -->
+
+<main class="main_minimal" role="main">
+    <h1 class="tag__title">Recent Posts</h1>
+    {{#foreach posts}}
+    {{> card}}
+    {{/foreach}}
+</main>
+
+
+<!-- Alternative home page, showing a Ghost page:
+    {{#page}}
 
 <main class="main_minimal" role="main">
     <article class="article__wrapper" role="article">
@@ -26,7 +38,7 @@ into the {body} of the default.hbs template --}}
 
     </article>
 </main>
-
+-->
 {{/page}}
 
 {{> footer}}
