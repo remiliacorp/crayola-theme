@@ -853,6 +853,10 @@ figure .fluidbox--closed .fluidbox__ghost {
 
 img {
   min-width: 50%;
-  width:700px;
+  width:400px;
   height: 100%;
+}
+
+figcaption header { 
+font-size: 1.1em;
 }
