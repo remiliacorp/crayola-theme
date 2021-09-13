@@ -335,6 +335,12 @@ h6,
 
 /* IMG */
 
+img {
+  min-width: 100%;
+  max-width: 65vw;
+  width: 65vw;
+  height: 100%;
+}
 .post__content figure {
   margin: 1em 0 2em;
   text-align: center;
