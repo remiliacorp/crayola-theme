@@ -1,6 +1,6 @@
 # Crayola - Theme for Ghost
 
-Crayola is a content-focused, deploy-ready theme for [Ghost](http://github.com/tryghost/ghost/), designed for RemiliaDAO's [writing]](https://blog.remilia.org).
+Crayola is a content-focused, deploy-ready theme for [Ghost](http://github.com/tryghost/ghost/), designed for RemiliaDAO's [blog](https://blog.remilia.org).
 
 The theme is based on [ganymede](https://github.com/itsmingjie/ganymede) by [@itsmingjie](https://github.com/itsmingjie/).
 
