@@ -1,10 +1,10 @@
 {
-  "name": "ganymede",
+  "name": "crayola",
   "version": "1.0.0",
   "description": "A content-focused, deploy-ready theme for Ghost.",
   "main": "index.js",
   "engines": {
-    "ghost-api": "v3"
+    "ghost-api": "v4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,12 +13,13 @@
     "ghost",
     "theme",
     "ghost-theme",
-    "ganymede"
+    "pastel",
+    "pastelcore"
   ],
   "author": {
-    "name": "Mingjie Jiang",
-    "email": "jiang@mingjie.info",
-    "url": "http://mingjie.info"
+    "name": "Remilia Jackson",
+    "email": "rjackson@remilia.org",
+    "url": "http://remilia.org"
   },
   "gpm": {
     "type": "theme",
