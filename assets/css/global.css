@@ -77,11 +77,11 @@ video {
   padding: 0;
   border: 0;
   font: inherit;
-  font-size: 1.1em;
+  font-size: 100%;
   vertical-align: baseline;
   text-rendering: optimizeLegibility;
   font-kerning: auto;
-  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  font-family: monospace;
 }
 
 article,
